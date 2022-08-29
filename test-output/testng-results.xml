@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="101501" started-at="2022-08-29T15:55:31 CDT" finished-at="2022-08-29T15:57:13 CDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="101501" started-at="2022-08-29T15:55:31 CDT" finished-at="2022-08-29T15:57:13 CDT">
+      <class name="test.FloatingMenuTest">
+        <test-method status="PASS" signature="flotingMenuCheck()[pri:0, instance:test.FloatingMenuTest@2781e022]" name="flotingMenuCheck" duration-ms="6321" started-at="2022-08-29T15:55:31 CDT" finished-at="2022-08-29T15:55:37 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flotingMenuCheck -->
+      </class> <!-- test.FloatingMenuTest -->
+      <class name="test.DropDownTest">
+        <test-method status="PASS" signature="dropDown()[pri:0, instance:test.DropDownTest@30a3107a]" name="dropDown" duration-ms="3932" started-at="2022-08-29T15:55:37 CDT" finished-at="2022-08-29T15:55:41 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+      </class> <!-- test.DropDownTest -->
+      <class name="test.DownloadNewFileTest">
+        <test-method status="PASS" signature="downloadFilecheck()[pri:0, instance:test.DownloadNewFileTest@33c7e1bb]" name="downloadFilecheck" duration-ms="6759" started-at="2022-08-29T15:55:41 CDT" finished-at="2022-08-29T15:55:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadFilecheck -->
+      </class> <!-- test.DownloadNewFileTest -->
+      <class name="test.ContextMenuTest">
+        <test-method status="PASS" signature="rightClickContextMenu()[pri:0, instance:test.ContextMenuTest@34c4973]" name="rightClickContextMenu" duration-ms="4820" started-at="2022-08-29T15:55:48 CDT" finished-at="2022-08-29T15:55:53 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightClickContextMenu -->
+      </class> <!-- test.ContextMenuTest -->
+      <class name="test.HoverOverTest">
+        <test-method status="PASS" signature="hoverOver()[pri:0, instance:test.HoverOverTest@52feb982]" name="hoverOver" duration-ms="3050" started-at="2022-08-29T15:55:53 CDT" finished-at="2022-08-29T15:55:56 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverOver -->
+      </class> <!-- test.HoverOverTest -->
+      <class name="test.JavaScriptErrorTest">
+        <test-method status="PASS" signature="javaScriptErrorCheck()[pri:0, instance:test.JavaScriptErrorTest@76b0bfab]" name="javaScriptErrorCheck" duration-ms="2615" started-at="2022-08-29T15:56:03 CDT" finished-at="2022-08-29T15:56:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptErrorCheck -->
+      </class> <!-- test.JavaScriptErrorTest -->
+      <class name="test.NotificationMessageTest">
+        <test-method status="PASS" signature="notificationCheck()[pri:0, instance:test.NotificationMessageTest@7a765367]" name="notificationCheck" duration-ms="6759" started-at="2022-08-29T15:55:56 CDT" finished-at="2022-08-29T15:56:03 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notificationCheck -->
+      </class> <!-- test.NotificationMessageTest -->
+      <class name="test.LoginTestSuccess">
+        <test-method status="PASS" signature="validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTestSuccess@3043fe0e]" name="validUserShouldBeAbleToLogin" duration-ms="3133" started-at="2022-08-29T15:56:05 CDT" finished-at="2022-08-29T15:56:08 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToLogin -->
+      </class> <!-- test.LoginTestSuccess -->
+      <class name="test.UploadFileTest">
+        <test-method status="PASS" signature="uploadFileCheck()[pri:0, instance:test.UploadFileTest@78e67e0a]" name="uploadFileCheck" duration-ms="6962" started-at="2022-08-29T15:56:08 CDT" finished-at="2022-08-29T15:56:15 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFileCheck -->
+      </class> <!-- test.UploadFileTest -->
+      <class name="test.JavaScriptAlertTest">
+        <test-method status="PASS" signature="javaScriptAlertCheck()[pri:0, instance:test.JavaScriptAlertTest@2f943d71]" name="javaScriptAlertCheck" duration-ms="9080" started-at="2022-08-29T15:56:20 CDT" finished-at="2022-08-29T15:56:29 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptAlertCheck -->
+      </class> <!-- test.JavaScriptAlertTest -->
+      <class name="test.NewTabLinkTest">
+        <test-method status="PASS" signature="newTabLinkCheck()[pri:0, instance:test.NewTabLinkTest@80503]" name="newTabLinkCheck" duration-ms="3237" started-at="2022-08-29T15:56:29 CDT" finished-at="2022-08-29T15:56:32 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTabLinkCheck -->
+      </class> <!-- test.NewTabLinkTest -->
+      <class name="test.DragAndDropTest">
+        <test-method status="PASS" signature="dragAndDrop()[pri:0, instance:test.DragAndDropTest@bd8db5a]" name="dragAndDrop" duration-ms="4639" started-at="2022-08-29T15:56:15 CDT" finished-at="2022-08-29T15:56:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- test.DragAndDropTest -->
+      <class name="test.CheckAndUncheckBoxesTest">
+        <test-method status="PASS" signature="checkAndUncheckBoxes()[pri:0, instance:test.CheckAndUncheckBoxesTest@69a3d1d]" name="checkAndUncheckBoxes" duration-ms="9258" started-at="2022-08-29T15:56:48 CDT" finished-at="2022-08-29T15:56:57 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAndUncheckBoxes -->
+      </class> <!-- test.CheckAndUncheckBoxesTest -->
+      <class name="test.DyanamicControlsTest">
+        <test-method status="PASS" signature="dynamicControlsCheck()[pri:0, instance:test.DyanamicControlsTest@4b553d26]" name="dynamicControlsCheck" duration-ms="15766" started-at="2022-08-29T15:56:32 CDT" finished-at="2022-08-29T15:56:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicControlsCheck -->
+      </class> <!-- test.DyanamicControlsTest -->
+      <class name="test.LoginTestFailure">
+        <test-method status="PASS" signature="validUserShouldNotBeAbleToLogin()[pri:0, instance:test.LoginTestFailure@86be70a]" name="validUserShouldNotBeAbleToLogin" duration-ms="3046" started-at="2022-08-29T15:56:57 CDT" finished-at="2022-08-29T15:57:00 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldNotBeAbleToLogin -->
+      </class> <!-- test.LoginTestFailure -->
+      <class name="test.IframeTest">
+        <test-method status="PASS" signature="iframeCheck()[pri:0, instance:test.IframeTest@480bdb19]" name="iframeCheck" duration-ms="4126" started-at="2022-08-29T15:57:00 CDT" finished-at="2022-08-29T15:57:05 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeCheck -->
+      </class> <!-- test.IframeTest -->
+      <class name="test.DyanamicLoadingTest">
+        <test-method status="PASS" signature="dynamicLoadingCheck()[pri:0, instance:test.DyanamicLoadingTest@2a556333]" name="dynamicLoadingCheck" duration-ms="7937" started-at="2022-08-29T15:57:05 CDT" finished-at="2022-08-29T15:57:13 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicLoadingCheck -->
+      </class> <!-- test.DyanamicLoadingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
