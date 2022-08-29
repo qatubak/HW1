@@ -21,9 +21,9 @@ public class CheckAndUncheckBoxesPage {
 	List<WebElement> CHECKBOXES_ELEMENT_SELECT;
 
 	public void clickCheckBox() throws InterruptedException {
-		Thread.sleep(2000);
+		//Thread.sleep(2000);
 		CHECKBOXES_ELEMENT.click();
-		Thread.sleep(2000);
+		//Thread.sleep(5000);
 	}
 
 	public void checkBoxSelect() throws InterruptedException {
@@ -37,7 +37,7 @@ public class CheckAndUncheckBoxesPage {
 		}
 
 		// selecting all checked boxes
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		for (int i = 0; i < CHECKBOXES_ELEMENT_SELECT.size(); i++) {
 			CHECKBOXES_ELEMENT_SELECT.get(i).click();
 		}
@@ -54,7 +54,7 @@ public class CheckAndUncheckBoxesPage {
 		}
 
 		// unselecting all checked boxes
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		for (int i = 0; i < CHECKBOXES_ELEMENT_SELECT.size(); i++) {
 			CHECKBOXES_ELEMENT_SELECT.get(i).click();
 
