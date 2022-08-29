@@ -14,7 +14,7 @@ public class LoginTestSuccess {
 	WebDriver driver;
 
 	@Test
-	public void validUserShouldBeAbleToLogin() {
+	public void validUserShouldBeAbleToLogin() throws InterruptedException {
 
 		driver = BrowserFactory.init();
 
