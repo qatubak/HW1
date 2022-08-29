@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8965" started-at="2022-08-29T17:34:25 CDT" finished-at="2022-08-29T17:34:34 CDT">
+  <suite name="Default suite" duration-ms="17637" started-at="2022-08-29T17:48:06 CDT" finished-at="2022-08-29T17:48:24 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8965" started-at="2022-08-29T17:34:25 CDT" finished-at="2022-08-29T17:34:34 CDT">
-      <class name="test.ContextMenuTest">
-        <test-method status="PASS" signature="rightClickContextMenu()[pri:0, instance:test.ContextMenuTest@17579e0f]" name="rightClickContextMenu" duration-ms="8939" started-at="2022-08-29T17:34:25 CDT" finished-at="2022-08-29T17:34:34 CDT">
+    <test name="Default test" duration-ms="17637" started-at="2022-08-29T17:48:06 CDT" finished-at="2022-08-29T17:48:24 CDT">
+      <class name="test.CheckAndUncheckBoxesTest">
+        <test-method status="PASS" signature="checkAndUncheckBoxes()[pri:0, instance:test.CheckAndUncheckBoxesTest@17579e0f]" name="checkAndUncheckBoxes" duration-ms="17611" started-at="2022-08-29T17:48:06 CDT" finished-at="2022-08-29T17:48:24 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- rightClickContextMenu -->
-      </class> <!-- test.ContextMenuTest -->
+        </test-method> <!-- checkAndUncheckBoxes -->
+      </class> <!-- test.CheckAndUncheckBoxesTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

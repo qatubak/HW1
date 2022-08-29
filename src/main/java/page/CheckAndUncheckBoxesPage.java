@@ -28,6 +28,7 @@ public class CheckAndUncheckBoxesPage {
 
 	public void checkBoxSelect() throws InterruptedException {
 
+		Thread.sleep(2000);
 		// checking if the all checkboxes are not selected
 		for (int i = 0; i < CHECKBOXES_ELEMENT_SELECT.size(); i++) {
 
@@ -54,7 +55,7 @@ public class CheckAndUncheckBoxesPage {
 		}
 
 		// unselecting all checked boxes
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		for (int i = 0; i < CHECKBOXES_ELEMENT_SELECT.size(); i++) {
 			CHECKBOXES_ELEMENT_SELECT.get(i).click();
 
